@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .sidebar-button {
+        @apply w-fit bg-secondary mx-auto my-3 p-2 flex justify-center rounded-3xl hover:rounded-2xl hover:bg-secondary_hover transition-all duration-200 ease-linear cursor-pointer;
+    }
+
+    .sidebar-break {
+        @apply block w-3/5 h-[1.5px] mx-auto bg-white m-3;
+    }
+}
